@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <title>Lock to predefined scales (unlocked)</title>
+  <!-- Colored background badge: keeps the icon legible on both light and
+       dark QGIS toolbar themes, and gives the locked/unlocked states a
+       color difference in addition to the shackle shape. -->
+  <circle cx="12" cy="12" r="11" fill="#57728a" stroke="#3d5266" stroke-width="0.8"/>
+  <!-- magnifying glass -->
+  <circle cx="9.6" cy="9.6" r="5" fill="none" stroke="#ffffff" stroke-width="1.6"/>
+  <line x1="13.4" y1="13.4" x2="18.3" y2="18.3" stroke="#ffffff" stroke-width="1.9" stroke-linecap="round"/>
+  <!-- padlock, shackle open -->
+  <rect x="7.1" y="9.9" width="5.0" height="4.0" rx="0.9" fill="#ffffff"/>
+  <path d="M 8.0 9.9 V 8.3 A 1.7 1.7 0 0 1 11.4 8.0"
+        fill="none" stroke="#ffffff" stroke-width="1.1" stroke-linecap="round"/>
+  <circle cx="9.6" cy="11.9" r="0.42" fill="#57728a"/>
+</svg>

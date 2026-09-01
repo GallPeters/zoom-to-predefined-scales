@@ -1,0 +1,12 @@
+# Claude Code session/project files - local to this machine, not part of
+# the plugin.
+.claude/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.vscode/
+
+# QGIS/test-run side effects that can land in the working directory.
+symbology-style.db
