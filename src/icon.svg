@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <title>Zoom to Predefined Scales (locked)</title>
+  <!-- Square badge with rounded corners and a two-tone frame, matching the
+       plugin's official icon style: a darker amber frame around a lighter
+       amber panel. Also serves as metadata.txt's "icon=icon.svg" (the
+       plugin's official/store icon), independent of the toolbar's live
+       locked/unlocked state icon swap. -->
+  <rect x="1" y="1" width="22" height="22" rx="5" fill="#a8690f"/>
+  <rect x="3" y="3" width="18" height="18" rx="3.5" fill="#e0901f"/>
+  <!-- padlock, filling most of the panel with decent margins from the
+       square's borders. Shackle: closed. Body/shackle geometry below is
+       shared byte-for-byte with icon_unlocked.svg except for the shackle's
+       closing segment, so the lock reads at the same size and position in
+       both states: only the open/closed shape changes. -->
+  <rect x="6.5" y="11.4" width="11" height="9" rx="1.8" fill="#ffffff"/>
+  <path d="M 9.0 11.4 V 8.0 A 3.0 3.0 0 0 1 15.0 8.0 V 11.4"
+        fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="12" cy="15.6" r="1.0" fill="#a8690f"/>
+  <rect x="11.6" y="15.6" width="0.8" height="2.0" fill="#a8690f"/>
+</svg>

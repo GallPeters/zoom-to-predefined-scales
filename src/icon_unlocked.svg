@@ -1,15 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-  <title>Lock to predefined scales (unlocked)</title>
-  <!-- Colored background badge: keeps the icon legible on both light and
-       dark QGIS toolbar themes, and gives the locked/unlocked states a
-       color difference in addition to the shackle shape. -->
-  <circle cx="12" cy="12" r="11" fill="#57728a" stroke="#3d5266" stroke-width="0.8"/>
-  <!-- magnifying glass -->
-  <circle cx="9.6" cy="9.6" r="5" fill="none" stroke="#ffffff" stroke-width="1.6"/>
-  <line x1="13.4" y1="13.4" x2="18.3" y2="18.3" stroke="#ffffff" stroke-width="1.9" stroke-linecap="round"/>
-  <!-- padlock, shackle open -->
-  <rect x="7.1" y="9.9" width="5.0" height="4.0" rx="0.9" fill="#ffffff"/>
-  <path d="M 8.0 9.9 V 8.3 A 1.7 1.7 0 0 1 11.4 8.0"
-        fill="none" stroke="#ffffff" stroke-width="1.1" stroke-linecap="round"/>
-  <circle cx="9.6" cy="11.9" r="0.42" fill="#57728a"/>
+  <title>Zoom to Predefined Scales (unlocked)</title>
+  <!-- Square badge with rounded corners and a two-tone frame, matching
+       icon.svg's layout but in the slate-blue "unlocked" palette so the
+       locked/unlocked states stay distinguishable on any QGIS theme. -->
+  <rect x="1" y="1" width="22" height="22" rx="5" fill="#3d5266"/>
+  <rect x="3" y="3" width="18" height="18" rx="3.5" fill="#57728a"/>
+  <!-- padlock, same body/shackle geometry and size as icon.svg: only the
+       shackle's right leg is lifted clear of the body instead of closing
+       into it, so the icon doesn't change size or position when toggled. -->
+  <rect x="6.5" y="11.4" width="11" height="9" rx="1.8" fill="#ffffff"/>
+  <path d="M 9.0 11.4 V 8.0 A 3.0 3.0 0 0 1 15.0 8.0"
+        fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="12" cy="15.6" r="1.0" fill="#3d5266"/>
+  <rect x="11.6" y="15.6" width="0.8" height="2.0" fill="#3d5266"/>
 </svg>

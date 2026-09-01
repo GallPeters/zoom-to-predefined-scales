@@ -35,7 +35,7 @@ class ZoomToPredefinedScalePlugin:
 
     def initGui(self) -> None:
         self._icon_unlocked = QIcon(os.path.join(_PLUGIN_DIR, "icon_unlocked.svg"))
-        self._icon_locked = QIcon(os.path.join(_PLUGIN_DIR, "icon_locked.svg"))
+        self._icon_locked = QIcon(os.path.join(_PLUGIN_DIR, "icon.svg"))
 
         action = QAction(self._icon_unlocked, PLUGIN_NAME, self.iface.mainWindow())
         action.setObjectName("zoomToPredefinedScaleAction")
