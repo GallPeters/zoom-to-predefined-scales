@@ -1,5 +1,5 @@
 [general]
-name=Zoom to Predefined Scales
+name=Zoom To Predefined Scales
 qgisMinimumVersion=4.0
 description=Lock the map canvas zoom to the project's predefined scales.
 about=Adds a toggle button to the Plugins toolbar that, when enabled, restricts every map canvas zoom operation (mouse wheel, zoom in/out tools, rubber-band zoom, keyboard shortcuts, and programmatic zooms) to the scale list configured in Project Properties -> View Settings -> Project predefined scales. When disabled, QGIS zooms normally. The plugin reads the project's own predefined scales dynamically -- it never stores a separate scale list, and it never modifies the project's predefined-scale settings itself. It only affects canvas behaviour while the lock is actively engaged.
@@ -10,7 +10,7 @@ email=jossefkan@gmail.com
 tracker=https://github.com/yourusername/zoom_to_predefined_scale/issues
 repository=https://github.com/yourusername/zoom_to_predefined_scale
 homepage=https://github.com/yourusername/zoom_to_predefined_scale
-icon=icon.svg
+icon=icon.png
 
 experimental=False
 deprecated=False

@@ -30,8 +30,8 @@ zoom_to_predefined_scale/          (repo root)
         scale_lock_controller.py       lock state machine + signal wiring (the core)
         project_scales.py              reads QgsProject's predefined scales
         scale_utils.py                 pure scale-selection algorithm (no QGIS import)
-        icon_unlocked.svg
-        icon.svg                       plugin's official icon (also the "locked" state icon)
+        icon_unlocked.png
+        icon.png                       plugin's official icon (also the "locked" state icon)
     tests/                         developer/QA test suite (not packaged separately -
                                     see "Packaging a release" below)
         __init__.py                 locates src/ and registers it as _ztps_plugin
@@ -60,7 +60,7 @@ named after the plugin, holding the plugin's files directly (no nested
 1. Create a folder named exactly `zoom_to_predefined_scale` (call it `X`
    anywhere, e.g. next to this repo).
 2. Copy everything from `src/` directly into `X/` (flattened — `X/__init__.py`,
-   `X/metadata.txt`, `X/zoom_to_predefined_scale.py`, `X/icon.svg`, `X/icon_unlocked.svg`, ...).
+   `X/metadata.txt`, `X/zoom_to_predefined_scale.py`, `X/icon.png`, `X/icon_unlocked.png`, ...).
 3. Copy `tests/` into `X/tests/` (optional, but recommended — it's what
    makes the Settings dialog's "Run Tests" button available to whoever
    installs this build; see below).
